@@ -12,7 +12,6 @@ evaluate(expression: string, precision?: number): string | boolean
 ```
 
 ```typescript
-import { evaluate } from "bigfloat.js";
 
 0.1 + 0.2 === 0.3; // false
 evaluate("0.1 + 0.2 == 0.3"); // true
