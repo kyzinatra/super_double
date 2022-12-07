@@ -1,0 +1,10 @@
+import { EEXample } from "./examples/E";
+import { PI } from "./examples/Pi";
+import { sin } from "./examples/Sin";
+import { sqrt2Example } from "./examples/sqrt2";
+import { test } from "./examples/test";
+sqrt2Example();
+// EEXample();
+// sin(1);
+// PI();
+// test();
