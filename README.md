@@ -1,7 +1,6 @@
 # Basic usage
 
 ```typescript
-import { BigFloat } from "bigfloat.js";
 
 new BigFloat("2").sqrt().toString(); // "1.4142"
 ```
@@ -32,7 +31,6 @@ evaluate(`4 >= ${Math.PI}`); // true
 ### Change precision
 
 ```typescript
-import { BigFloat, set_precision } from "bigfloat.js";
 
 new BigFloat(2).sqrt().toString(); // "1.4142"
 set_precision(-10);
