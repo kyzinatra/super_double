@@ -38,19 +38,3 @@ new BigFloat(2).sqrt().toString(); // "1.4142"
 set_precision(-10);
 new BigFloat(2).sqrt().toString(); // "1.4142135623"
 ```
-
-### The bigfloat object
-
-```typescript
-interface IBigFloat {
-  coefficient: JSBI;
-  exponent: number;
-}
-```
-
-```typescript
-const bigfloat: IBigFloat {
-  coefficient: JSBI.BigInt(522299),
-  exponent: -4
-};
-```
